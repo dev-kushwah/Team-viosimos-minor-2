@@ -1,0 +1,61 @@
+
+.container{
+   display: flex;
+    background-color:#0077b6;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+.box{
+    display: flex;
+   
+    align-items: center;
+    border-radius: 20px;
+    height: 50%;
+    width: 30%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ade8f4;
+    color: #000000;
+    padding:20px 0;
+   
+   
+    
+    
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+    margin-top:30px ;
+}
+.btn{
+    width: 10em;
+    height: 38px;
+   
+   font-size: 15px;
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.content{
+    font-size: 20px;
+}
+.input-box{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    width:20em
+}
+.image-right{
+    -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+}
