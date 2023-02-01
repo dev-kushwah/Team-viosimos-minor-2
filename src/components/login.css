@@ -1,10 +1,15 @@
 
 .container{
    display: flex;
-    background-color:#0077b6;
+    /* background-color:#0077b6; */
+    background-image: url(/src/components/images/image\ 1.jpg);
     height: 100vh;
     justify-content: center;
     align-items: center;
+    /* background-repeat: no-repeat; */
+    background-size:contain;
+    
+   
    
    
 
@@ -21,6 +26,7 @@
     background-color: #ade8f4;
     color: #000000;
     padding:20px 0;
+    margin-bottom: 200px;
    
    
     

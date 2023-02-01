@@ -1,6 +1,7 @@
 import React from 'react'
 import "./login.css";
-import light from "./images/light.png";
+// import light from "./images/light.png";
+
 
 const login = () => {
 
@@ -8,10 +9,11 @@ const login = () => {
      //  html code
 
     
-    <div className='container'>
-      <div>
-      <img  className='image-left' src={light} alt="light"/>
-      </div>
+    <div  className='container'>
+      {// <div>
+      // <img  className='image-left' src={light} alt="light"/>
+      // </div>
+      }
       <div className='box'>
       <div className='heading'>LOGIN</div>
       <form>
@@ -26,9 +28,11 @@ const login = () => {
 
 
       </div>
-      <div>
-      <img className='image-right' src={light} alt="light"/>
-      </div>
+      {
+      //   <div>
+      // <img className='image-right' src={light} alt="light"/>
+      // </div>
+      }
     </div>
   )
 }
