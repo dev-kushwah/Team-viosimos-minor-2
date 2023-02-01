@@ -1,4 +1,15 @@
 
+ @keyframes animatedBackground {
+     from {
+         background-size: contain;
+         background-position: 50% 22%;
+     }
+
+     to {
+         background-size: contain;
+         background-position: 100% 22%;
+     }
+ }
 .container{
    display: flex;
     /* background-color:#0077b6; */
@@ -8,7 +19,9 @@
     align-items: center;
     /* background-repeat: no-repeat; */
     background-size:contain;
-    
+
+    animation: animatedBackground 15s linear infinite ;
+   
    
    
    
