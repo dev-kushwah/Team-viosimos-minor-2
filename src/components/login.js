@@ -1,14 +1,18 @@
-import React from 'react'
+import React from "react";
 import "./login.css";
+// import { NavLink } from "react-router-dom";
 // import light from "./images/light.png";
 
-
 const login = () => {
+  const handleSubmit = (event) => {
+    console.log(event.target[0].value);
+    console.log(event.target[1].value);
+    event.preventDefault();
+  };
 
   return (
     //  html code
     <>
-     
       <div className="container">
         {
           // <div>
@@ -17,7 +21,7 @@ const login = () => {
         }
         <div className="box">
           <div className="heading">LOGIN</div>
-          <form>
+          <form onSubmit={handleSubmit}>
             <h4 className="content">Mobile No.</h4>
             <input
               className="input-box"
@@ -32,7 +36,7 @@ const login = () => {
             ></input>
             <br></br>
             <div className="div-btn">
-              <button className="btn">Submit</button>
+              <button className="btn">submit</button>
             </div>
           </form>
         </div>
@@ -44,6 +48,6 @@ const login = () => {
       </div>
     </>
   );
-}
+};
 
-export default login
+export default login;

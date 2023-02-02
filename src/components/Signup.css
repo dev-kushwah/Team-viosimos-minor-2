@@ -1,0 +1,118 @@
+@keyframes animatedBackground {
+  from {
+    background-size: contain;
+    background-position: 50% 22%;
+  }
+
+  to {
+    background-size: contain;
+    background-position: 100% 22%;
+  }
+}
+
+/* For screen sizes less or equal to 1200px */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+    background-image: url(/src/components/images/image\ 1.jpg);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* animation: animatedBackground 15s linear infinite; */
+  }
+  .box {
+    display: flex;
+
+    align-items: center;
+    border-radius: 20px;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #d2f4fe; */
+
+    /* for making box transparent */
+    background: rgba(0, 0, 0, 0);
+    color: #000000;
+
+    padding: 20px 0;
+    margin-bottom: 45px;
+    /* overflow: auto; */
+  }
+}
+
+
+/* For screen sizes greater or equal to 1201px */
+
+@media screen and (min-width: 1201px) {
+  .container {
+    display: flex;
+    /* background-color:#0077b6; */
+    background-image: url(/src/components/images/image\ 1.jpg);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: repeat;
+    background-size: contain;
+
+    animation: animatedBackground 15s linear infinite;
+  }
+  .box {
+    display: flex;
+
+    align-items: center;
+    border-radius: 20px;
+    height: 85%;
+    width: 40%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ade8f4;
+    color: #000000;
+    padding: 20px 0;
+    margin-bottom: 65px;
+    /* making box transparent in laptop size  */
+    opacity: 0.76;
+  }
+}
+
+
+ /* Normal css for all sizes  */
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn {
+  width: 10em;
+  height: 38px;
+
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+.content {
+  font-size: 20px;
+}
+.input-box {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 20em;
+}
+
+/* Css for inverted light  */
+
+/* .image-right {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+} */
