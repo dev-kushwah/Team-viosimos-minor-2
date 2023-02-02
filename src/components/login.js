@@ -18,11 +18,11 @@ const login = () => {
         <div className="box">
           <div className="heading">LOGIN</div>
           <form>
-            <h4 className="content">Username</h4>
+            <h4 className="content">Mobile No.</h4>
             <input
               className="input-box"
               type="text"
-              placeholder="Enter your Username"
+              placeholder="Enter your Mobile No."
             ></input>
             <h4 className="content">Password</h4>
             <input
